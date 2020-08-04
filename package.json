@@ -2,9 +2,9 @@
   "name": "gh-release-test",
   "description": "WIP - nothing to see here",
   "version": "1.0.1",
-  "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
+  "author": "Bret Comnes <ballpit@gmail.com> (https://bret.io)",
   "bugs": {
-    "url": "https://github.com/bcomnes/gh-release-test/issues"
+    "url": "https://github.com/ballpit/gh-release-test/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -15,13 +15,13 @@
     "standard": "^13.1.0",
     "tap": "^14.10.2"
   },
-  "homepage": "https://github.com/bcomnes/gh-release-test",
+  "homepage": "https://github.com/ballpit/gh-release-test",
   "keywords": [],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcomnes/gh-release-test.git"
+    "url": "https://github.com/ballpit/gh-release-test.git"
   },
   "scripts": {
     "release": "git push --follow-tags && gh-release",
