@@ -23,7 +23,7 @@
     "url": "https://github.com/ballpit/gh-release-test.git"
   },
   "scripts": {
-    "release": "git push --follow-tags && gh-release",
+    "release": "git push --follow-tags && gh-release --assets foo.js,index.js",
     "test": "run-s test:*",
     "test:deps": "dependency-check . --no-dev --no-peer",
     "test:standard": "standard",
